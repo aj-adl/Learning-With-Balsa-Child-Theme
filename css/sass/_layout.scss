@@ -1,0 +1,110 @@
+$medium:770px;
+$large: 1040px;
+
+
+.site-navigation {
+
+	.menu-toggle {
+		display: none;
+	}
+
+	#menu-main-menu {
+		display: block;
+	}
+
+}
+// ONLY Small
+@media screen and (max-width:$medium - 1px) {
+
+
+
+}
+
+
+// Medium to Large
+@media screen and (min-width:$medium) and (max-width:$large - 1px) {
+
+	#site-header {
+		.site-branding {
+			margin-left: -40px;
+		}
+
+		.site-navigation {
+			margin-right: -5px;
+		}
+	}
+
+	#menu-main-menu {
+
+		li {
+			display: block;
+			float: left;
+			width: 120px;
+			text-align: center;
+
+			a {
+				font-size: 1.5rem;
+				line-height: 100px;
+				border-right: solid 3px $white;
+				padding:0;
+
+			}
+		}
+	}
+
+}
+
+// Large (won't get used much)
+@media screen and (min-width:800px) {
+	#site-header {
+
+		.site-branding {
+			position: absolute;
+			padding: 20px 30px 10px;
+			margin: -20px 0 0 -30px;
+
+			.site-description {
+				margin-bottom: 0;
+			}
+		}
+
+		.site-header-main {
+			padding: 0;
+			margin: 1.8em 0;
+
+		}
+
+		.site-navigation {
+			margin-right: -30px;
+			max-width: 600px;
+
+		}
+
+		#menu-main-menu {
+
+			padding: 0 9999rem;
+			margin: 0 -9999rem;
+			border: none;
+
+
+			li {
+				display: block;
+				float: left;
+				width: 120px;
+				text-align: center;
+
+				&:first-of-type a {
+					border-left: solid 3px $white;
+				}
+
+				a {
+					font-size: 1.5rem;
+					line-height: 100px;
+					border-right: solid 3px $white;
+					padding:0;
+
+				}
+			}
+		}
+	}
+}

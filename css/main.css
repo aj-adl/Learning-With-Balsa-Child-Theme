@@ -328,54 +328,91 @@ h6 {
 @media (-webkit-min-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6 / 2), (min--moz-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
   .custom-logo {
     background-image: url("http://www.lwb.dev/wp-content/uploads/2014/10/lwb-logo-600-186.png"); } }
-html, body {
-  overflow-x: hidden;
-  background-color: white; }
+.site-navigation .menu-toggle {
+  display: none; }
+.site-navigation #menu-main-menu {
+  display: block; }
 
+@media screen and (min-width: 770px) and (max-width: 1039px) {
+  #site-header .site-branding {
+    margin-left: -40px; }
+  #site-header .site-navigation {
+    margin-right: -5px; }
+
+  #menu-main-menu li {
+    display: block;
+    float: left;
+    width: 120px;
+    text-align: center; }
+    #menu-main-menu li a {
+      font-size: 1.5rem;
+      line-height: 100px;
+      border-right: solid 3px white;
+      padding: 0; } }
+@media screen and (min-width: 800px) {
+  #site-header .site-branding {
+    position: absolute;
+    padding: 20px 30px 10px;
+    margin: -20px 0 0 -30px; }
+    #site-header .site-branding .site-description {
+      margin-bottom: 0; }
+  #site-header .site-header-main {
+    padding: 0;
+    margin: 1.8em 0; }
+  #site-header .site-navigation {
+    margin-right: -30px;
+    max-width: 600px; }
+  #site-header #menu-main-menu {
+    padding: 0 9999rem;
+    margin: 0 -9999rem;
+    border: none; }
+    #site-header #menu-main-menu li {
+      display: block;
+      float: left;
+      width: 120px;
+      text-align: center; }
+      #site-header #menu-main-menu li:first-of-type a {
+        border-left: solid 3px white; }
+      #site-header #menu-main-menu li a {
+        font-size: 1.5rem;
+        line-height: 100px;
+        border-right: solid 3px white;
+        padding: 0; } }
 #site-header .site-branding {
-  position: absolute;
-  padding: 20px 30px 10px;
   background-color: white;
-  margin: -20px 0 0 -30px;
   border: solid 1px #e8e8e8;
   border: solid 1px rgba(211, 211, 211, 0.75);
   -webkit-box-shadow: 3px 4px 3px 0px rgba(50, 50, 50, 0.75);
   box-shadow: 3px 4px 3px 0px rgba(50, 50, 50, 0.23); }
   #site-header .site-branding .site-title a {
     color: #667077; }
-  #site-header .site-branding .site-description {
-    margin-bottom: 0; }
 #site-header .site-header-main {
   background-color: #f67924;
-  color: #3f3f3f;
-  padding: 0;
-  margin: 1.8em 0; }
-#site-header .site-navigation {
-  margin-right: -30px; }
+  color: #3f3f3f; }
 #site-header #menu-main-menu {
-  padding: 0 9999rem;
-  margin: 0 -9999rem;
-  border: none;
   background-color: transparent; }
   #site-header #menu-main-menu li {
-    display: block;
-    float: left;
-    width: 120px;
-    text-align: center; }
+    color: white; }
     #site-header #menu-main-menu li:first-of-type a {
       border-left: solid 3px white; }
     #site-header #menu-main-menu li.current-menu-item {
-      background-color: #009fa9; }
-    #site-header #menu-main-menu li:hover {
-      background-color: #009fa9; }
-    #site-header #menu-main-menu li:hover ~ .current-menu-item {
-      background-color: #f67924; }
+      background-color: white;
+      color: #f67924; }
+    #site-header #menu-main-menu li:hover a {
+      text-decoration: underline; }
     #site-header #menu-main-menu li a {
-      font-size: 1.5rem;
-      line-height: 100px;
       border-right: solid 3px white;
-      color: white;
-      padding: 0; }
+      color: inherit;
+      font-size: 1.7rem;
+      font-weight: bold; }
+
+.site-footer {
+  background: whitesmoke;
+  color: #3f3f3f; }
+
+html, body {
+  overflow-x: hidden;
+  background-color: white; }
 
 .ttfmake-button.large {
   width: 100%;
