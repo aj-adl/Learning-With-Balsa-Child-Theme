@@ -1,7 +1,7 @@
 
 .builder-section-postlist .ttfmp-post-list-item-footer a:hover,
 .ttfmp-widget-post-list .ttfmp-post-list-item-comment-link:hover{
-	color:#f97906;
+	color:$primary;
 }
 .ttfmp-widget-post-list .ttfmp-post-list-item-date a,
 .builder-section-postlist .ttfmp-post-list-item-date a{
@@ -23,7 +23,7 @@
 	color:#bac6cd;
 }
 product_meta a:hover{
-	color:#f97906;
+	color:$primary;
 }
 .woocommerce #content .quantity .minus,
 .woocommerce #content .quantity .plus,
@@ -69,7 +69,7 @@ product_meta a:hover{
 .woocommerce-page a.button.alt:hover,
 .woocommerce-page button.button.alt:hover,
 .woocommerce-page input.button.alt:hover{
-	background-color:#f97906;
+	background-color:$primary;
 }
 .woocommerce #content input.button,
 .woocommerce #respond input#submit,
@@ -128,14 +128,14 @@ ul.ttfmake-list-dot li:before,
 ol.ttfmake-list-dot li:before,
 .entry-comment-count a:hover,
 .comment-count-icon a:hover{
-	color:#f97906;
+	color:$primary;
 }
 .color-primary-background,
 .ttfmake-button.color-primary-background{
-	background-color:#f97906;
+	background-color:$primary;
 }
 .color-primary-border{
-	border-color:#f97906;
+	border-color:$primary;
 }
 .color-secondary-text,
 .builder-section-banner .cycle-pager,
@@ -254,14 +254,14 @@ textarea,
 	border-color:#fafbf8;
 }
 .header-bar{
-	background-color:#f97906;
+	background-color:$primary;
 }
 .site-header .site-title,
 .site-header .site-title a{
 	color:#fe6541;
 }
 .site-footer{
-	color:#f4f4f4;background-color:#f97906;
+	color:#f4f4f4;background-color:$primary;
 }
 .site-footer *:not(select){
 	border-color:#bac6cd !important;
@@ -308,7 +308,7 @@ h6{
 	.site-navigation ul.menu ul a:focus,
 .site-navigation .menu ul ul a:hover,
 .site-navigation .menu ul ul a:focus{
-	background-color:#f97906;
+	background-color:$primary;
 }
 .site-navigation .menu .sub-menu,
 .site-navigation .menu .children{

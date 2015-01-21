@@ -20,7 +20,7 @@
 	}
 
 	.site-header-main {
-		background-color: $orange;
+		background-color: $primary;
 		color: $dark;
 	}
 
@@ -38,18 +38,19 @@
 
 			&.current-menu-item {
 				background-color: $white;
-				color: $orange;
+				color: $primary;
 			}
-
-			&:hover a {
-						text-decoration: underline;
-				}
 
 			a {
 				border-right: solid 3px $white;
 				color: inherit;
 				font-size: 1.7rem;
 				font-weight: bold;
+			}
+
+			a:hover,
+			a:focus {
+				background-color: rgba(0,0,0,.2);
 			}
 
 		}
@@ -63,4 +64,9 @@
 	background: $light-grey;
 	color: $dark;
 
+}
+
+h3 {
+	font-size: 3rem;
+	color: $primary;
 }

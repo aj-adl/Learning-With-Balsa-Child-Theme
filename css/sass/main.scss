@@ -1,0 +1,49 @@
+@import "variables";
+@import "type";
+@import "customizer";
+@import "layout";
+@import "skin";
+
+html, body {
+	overflow-x: hidden;
+	background-color: $white;
+}
+
+.ttfmake-button {
+	background: $primary;
+	color: $text-over-primary;
+	font-size: 1.5rem;
+	font-weight: bold;
+	padding: 20px;
+	border-radius: 0px;
+	border-bottom: solid 3px $primary-shade;
+
+	&:hover {
+		background: $primary-shade;
+	}
+
+	&.secondary {
+		background: $secondary;
+		border-bottom: solid 3px $secondary-shade;
+
+		&:hover {
+			background: $secondary-shade;
+		}
+	}
+}
+
+.ttfmake-button-icon:before {
+	padding-right: 10px;
+}
+
+.ttfmake-button.large {
+	width: 100%;
+	display: block;
+}
+
+.custom-logo {
+	width: auto;
+	height: 80px;
+	background-position: left center;
+}
+

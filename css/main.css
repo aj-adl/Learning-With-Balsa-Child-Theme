@@ -1,6 +1,6 @@
 .builder-section-postlist .ttfmp-post-list-item-footer a:hover,
 .ttfmp-widget-post-list .ttfmp-post-list-item-comment-link:hover {
-  color: #f97906; }
+  color: #27ae60; }
 
 .ttfmp-widget-post-list .ttfmp-post-list-item-date a,
 .builder-section-postlist .ttfmp-post-list-item-date a {
@@ -22,7 +22,7 @@
   color: #bac6cd; }
 
 product_meta a:hover {
-  color: #f97906; }
+  color: #27ae60; }
 
 .woocommerce #content .quantity .minus,
 .woocommerce #content .quantity .plus,
@@ -68,7 +68,7 @@ product_meta a:hover {
 .woocommerce-page a.button.alt:hover,
 .woocommerce-page button.button.alt:hover,
 .woocommerce-page input.button.alt:hover {
-  background-color: #f97906; }
+  background-color: #27ae60; }
 
 .woocommerce #content input.button,
 .woocommerce #respond input#submit,
@@ -128,14 +128,14 @@ ul.ttfmake-list-dot li:before,
 ol.ttfmake-list-dot li:before,
 .entry-comment-count a:hover,
 .comment-count-icon a:hover {
-  color: #f97906; }
+  color: #27ae60; }
 
 .color-primary-background,
 .ttfmake-button.color-primary-background {
-  background-color: #f97906; }
+  background-color: #27ae60; }
 
 .color-primary-border {
-  border-color: #f97906; }
+  border-color: #27ae60; }
 
 .color-secondary-text,
 .builder-section-banner .cycle-pager,
@@ -254,7 +254,7 @@ textarea,
   border-color: #fafbf8; }
 
 .header-bar {
-  background-color: #f97906; }
+  background-color: #27ae60; }
 
 .site-header .site-title,
 .site-header .site-title a {
@@ -262,7 +262,7 @@ textarea,
 
 .site-footer {
   color: #f4f4f4;
-  background-color: #f97906; }
+  background-color: #27ae60; }
 
 .site-footer *:not(select) {
   border-color: #bac6cd !important; }
@@ -314,7 +314,7 @@ h6 {
   .site-navigation ul.menu ul a:focus,
   .site-navigation .menu ul ul a:hover,
   .site-navigation .menu ul ul a:focus {
-    background-color: #f97906; }
+    background-color: #27ae60; }
 
   .site-navigation .menu .sub-menu,
   .site-navigation .menu .children {
@@ -387,7 +387,7 @@ h6 {
   #site-header .site-branding .site-title a {
     color: #667077; }
 #site-header .site-header-main {
-  background-color: #f67924;
+  background-color: #27ae60;
   color: #3f3f3f; }
 #site-header #menu-main-menu {
   background-color: transparent; }
@@ -397,22 +397,46 @@ h6 {
       border-left: solid 3px white; }
     #site-header #menu-main-menu li.current-menu-item {
       background-color: white;
-      color: #f67924; }
-    #site-header #menu-main-menu li:hover a {
-      text-decoration: underline; }
+      color: #27ae60; }
     #site-header #menu-main-menu li a {
       border-right: solid 3px white;
       color: inherit;
       font-size: 1.7rem;
       font-weight: bold; }
+    #site-header #menu-main-menu li a:hover,
+    #site-header #menu-main-menu li a:focus {
+      background-color: rgba(0, 0, 0, 0.2); }
 
 .site-footer {
   background: whitesmoke;
   color: #3f3f3f; }
 
+h3 {
+  font-size: 3rem;
+  color: #27ae60; }
+
 html, body {
   overflow-x: hidden;
   background-color: white; }
+
+.ttfmake-button {
+  background: #27ae60;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 0px;
+  border-bottom: solid 3px #1e8449; }
+  .ttfmake-button:hover {
+    background: #1e8449; }
+  .ttfmake-button.secondary {
+    background: #e74c3c;
+    border-bottom: solid 3px #d62c1a; }
+    .ttfmake-button.secondary:hover {
+      background: #d62c1a; }
+
+.ttfmake-button-icon:before {
+  padding-right: 10px; }
 
 .ttfmake-button.large {
   width: 100%;
