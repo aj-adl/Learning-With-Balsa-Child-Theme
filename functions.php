@@ -61,4 +61,14 @@ add_action( 'init', 'create_project_post_type', 0 );
 
 add_post_type_support( 'project', 'make-builder');
 
+add_filter( 'make_template_content_single', 'lwb_project_content_single', 10, 2 );
+
+function lwb_project_content_single( $type, $post ) {
+	if ( $post->post_type === 'project' ) {
+		return 'project';
+	} else {
+		return $type;
+	}
+}
+
 ?>
