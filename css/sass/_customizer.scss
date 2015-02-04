@@ -16,7 +16,7 @@
 .woocommerce div.product .woocommerce-tabs ul.tabs li,
 .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li,
 .woocommerce-page div.product .woocommerce-tabs ul.tabs li{
-	background-color:#bac6cd;
+	background-color:$body-section;
 }
 .product_meta,
 .product_meta a{
@@ -37,7 +37,7 @@ product_meta a:hover{
 .woocommerce .quantity input.qty,
 .woocommerce-page #content .quantity input.qty,
 .woocommerce-page .quantity input.qty{
-	background-color:#bac6cd;
+	background-color:$body-section;
 }
 .woocommerce #content .quantity .minus:hover,
 .woocommerce #content .quantity .plus:hover,
@@ -91,7 +91,7 @@ product_meta a:hover{
 .woocommerce-page a.button:hover,
 .woocommerce-page button.button:hover,
 .woocommerce-page input.button:hover{
-	background-color:#bac6cd;
+	background-color:$body-section;
 }
 .woocommerce span.onsale,
 .woocommerce-page span.onsale{
@@ -103,18 +103,18 @@ product_meta a:hover{
 .woocommerce-page .woocommerce-error,
 .woocommerce-page .woocommerce-info,
 .woocommerce-page .woocommerce-message{
-	background-color:#bac6cd;
+	background-color:$body-section;
 }
 .shipping-calculator-button{
 	color:#289a00;
 }
 .woocommerce #payment,
 .woocommerce-page #payment{
-	background-color:#bac6cd;
+	background-color:$body-section;
 }
 .woocommerce #payment div.payment_box,
 .woocommerce-page #payment div.payment_box{
-	border-color:#bac6cd !important;background-color:#bac6cd;
+	border-color:#bac6cd !important;background-color:$body-section;
 }
 .builder-section-content .products h3{
 	color:#667077;
@@ -176,7 +176,7 @@ input[type="reset"].color-secondary-background,
 input[type="submit"].color-secondary-background,
 .sticky-post-label,
 .widget_tag_cloud a{
-	background-color:#bac6cd;
+	background-color:$body-section;
 }
 .color-secondary-border,
 table,
@@ -232,7 +232,7 @@ textarea,
 	color:#bac6cd;
 }
 .color-detail-background{
-	background-color:#bac6cd;
+	background-color:$body-section;
 }
 .color-detail-border{
 	border-color:#bac6cd;
@@ -277,7 +277,8 @@ h1,
 h2{
 	font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-h3,
+.post-36 h3,
+.type-project h3,
 .builder-text-content .widget-title{font-family:"Coming Soon","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 h4{
@@ -312,7 +313,7 @@ h6{
 }
 .site-navigation .menu .sub-menu,
 .site-navigation .menu .children{
-	background-color:#bac6cd;
+	background-color:$body-section;
 }
 .site-navigation .menu-item-has-children a:after{
 	color:#bac6cd;

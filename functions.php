@@ -45,6 +45,7 @@ function create_project_post_type() {
 		'show_in_menu'        => true,
 		'show_in_nav_menus'   => true,
 		'show_in_admin_bar'   => true,
+		'menu_icon'			  => 'dashicons-awards',
 		'menu_position'       => 5,
 		'can_export'          => true,
 		'has_archive'         => true,

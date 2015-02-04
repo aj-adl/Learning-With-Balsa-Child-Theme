@@ -47,3 +47,200 @@ html, body {
 	background-position: left center;
 }
 
+.builder-gallery-columns-3 .builder-gallery-item {
+padding: 0 20px;
+border: solid 1px #f6f6f6;
+}
+
+.ttfmp-post-list-item-thumb.position-top {
+	text-align: center;
+	
+	img {
+		max-height: 199px;
+		width: auto;
+	}
+}
+
+.ttfmp-post-list-item-title {
+		min-height: 92px;
+	}
+
+.resource-list {
+	padding-left: 0;
+	list-style: none;
+
+}
+
+.resource-list a,
+a.resource-link {
+	color: $text-over-primary;
+	display: block;
+	background: $primary;
+	border: solid 3px $primary;
+	border-bottom-color: $primary-shade;
+	padding: 10px 10px 10px 20px;
+	margin-bottom: 10px;
+
+	&:hover, 
+	&:focus {
+		color: $primary;
+		background: $text-over-primary;
+		border-bottom-color: $primary;
+
+	}
+
+	&:before {
+		content: "\f1c1";
+		display: inline-block;
+		font: normal normal normal 14px/1 FontAwesome;
+		font-size: 1.5em;
+		margin-right: 10px;
+		text-rendering: auto;
+		 -webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		transform: translate(0, 0);
+	}
+}
+
+a.button-link {
+	color: $text-over-primary;
+	display: block;
+	background: $primary;
+	border: solid 3px $primary;
+	border-bottom-color: $primary-shade;
+	padding: 10px 10px 10px 20px;
+	margin-bottom: 10px;
+
+	&:hover, 
+	&:focus {
+		color: $primary;
+		background: $text-over-primary;
+		border-bottom-color: $primary;
+
+	}
+}
+
+// Home Page Slider Section 
+
+#builder-section-1423010520863 {
+
+	.builder-banner-slide {
+		height: 400px;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.builder-banner-inner-content p {
+		font-size: 3rem;
+		padding: 35px 70px;
+	}
+
+}
+
+// "Make Teaching Easy with Our Products"
+#builder-section-1423011012 {
+	background: $body-section;
+	border-bottom: solid 6px darken($body-section, 10%);
+
+	h2 {
+		color: #474747
+	}
+}
+
+// Home Page Popular Products Section
+#builder-section-1423009227418 {
+
+	background: $primary;
+	border-bottom: solid 6px $primary-shade;
+
+	.builder-post-list-section-title {
+		color: $text-over-primary;
+	}
+
+	.container {
+		padding-bottom: 0;
+	}
+
+	.ttfmp-post-list-item {
+		padding: 20px 10px;
+		border: solid 1px #bebebe;
+		background: #fff;
+
+		-webkit-box-shadow: 2px 7px 22px -3px rgba(0,0,0,0.81);
+		   -moz-box-shadow: 2px 7px 22px -3px rgba(0,0,0,0.81);
+				box-shadow: 2px 7px 22px -3px rgba(0,0,0,0.81);
+
+		.ttfmp-post-list-item-thumb img {
+			max-height: 129px;
+		}
+
+	}
+
+	.ttfmp-post-list-item-title {
+		font-size: 2rem;
+		min-height: 62px;
+		text-align: center;
+	}
+
+}
+
+.site-content {
+	border-bottom: solid 6px darken($body-background, 10%);
+}
+
+.site-footer {
+
+	background: $body-background;
+
+	.widget.widget_sow-button {
+		margin-bottom: 1.2rem;
+	}
+
+	.widget-area {
+		margin-bottom: 0;
+	}
+
+	.widget {
+		margin-bottom: 0;
+	}
+}
+
+.site-footer *:not(select) {
+  border-color: initial !important;}
+
+//Contact Us Page
+
+
+
+.wpcf7 {
+	input[type="text"],
+	input[type="email"],
+	input[type="name"],
+	button, 
+	input[type="button"], 
+	input[type="reset"], 
+	input[type="submit"],
+	textarea {
+		width: 100%;
+	}
+
+	.for-real-human-beans {
+		padding: 15px;
+		border: solid 3px $primary;
+
+		input {
+			margin-right: 10px;
+			margin-top: 20px;
+		}
+
+	}
+}
+
+.ttfmake-button, button, input[type="button"], input[type="reset"], input[type="submit"] {
+	background: $secondary;
+	border-bottom: solid 3px $secondary-shade;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	   -moz-border-radius: 0;
+}
